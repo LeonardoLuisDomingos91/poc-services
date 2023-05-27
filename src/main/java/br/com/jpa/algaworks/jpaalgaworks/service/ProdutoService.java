@@ -1,8 +1,8 @@
-package com.algaworks.service;
+package br.com.jpa.algaworks.jpaalgaworks.service;
 
-import com.algaworks.domain.entity.Produto;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Produto;
 
-import com.algaworks.repository.ProdutoRepository;
+import br.com.jpa.algaworks.jpaalgaworks.repository.ProdutoRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

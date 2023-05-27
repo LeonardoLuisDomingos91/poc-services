@@ -1,6 +1,6 @@
-package com.algaworks.domain.entity;
+package br.com.jpa.algaworks.jpaalgaworks.domain.entity;
 
-import com.algaworks.domain.enumeration.StatusPagamento;
+import br.com.jpa.algaworks.jpaalgaworks.domain.enumeration.StatusPagamento;
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

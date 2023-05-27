@@ -1,13 +1,10 @@
-package com.algaworks.controller;
+package br.com.jpa.algaworks.jpaalgaworks.controller;
 
-import com.algaworks.domain.entity.Pedido;
-import com.algaworks.repository.PedidoRepository;
-import com.algaworks.service.PedidoService;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+import br.com.jpa.algaworks.jpaalgaworks.service.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
-import java.util.List;
 
 @RestController
 @RequestMapping("/pedido")

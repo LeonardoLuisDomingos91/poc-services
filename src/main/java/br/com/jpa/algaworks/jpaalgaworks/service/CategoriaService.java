@@ -1,8 +1,12 @@
-package com.algaworks.service;
 
-import com.algaworks.domain.entity.Categoria;
-import com.algaworks.repository.CategoriaRepository;
+package br.com.jpa.algaworks.jpaalgaworks.service;
+
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Categoria;
+
+import br.com.jpa.algaworks.jpaalgaworks.repository.CategoriaRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 @Service

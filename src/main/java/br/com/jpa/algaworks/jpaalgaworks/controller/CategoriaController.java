@@ -1,11 +1,9 @@
-package com.algaworks.controller;
+package br.com.jpa.algaworks.jpaalgaworks.controller;
 
-import com.algaworks.domain.entity.Categoria;
-import com.algaworks.domain.entity.Cliente;
-import com.algaworks.domain.response.ClienteResponse;
-import com.algaworks.service.CategoriaService;
-import com.algaworks.service.ClienteService;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Categoria;
+import br.com.jpa.algaworks.jpaalgaworks.service.CategoriaService;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.web.bind.annotation.*;
 
 @RestController

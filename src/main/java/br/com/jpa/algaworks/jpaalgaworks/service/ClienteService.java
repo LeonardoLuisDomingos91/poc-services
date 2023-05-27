@@ -1,11 +1,16 @@
-package com.algaworks.service;
+package br.com.jpa.algaworks.jpaalgaworks.service;
 
-import com.algaworks.domain.entity.Cliente;
-import com.algaworks.domain.entity.Pedido;
-import com.algaworks.domain.response.ClienteResponse;
-import com.algaworks.mapper.ClienteMapper;
-import com.algaworks.repository.ClienteRepository;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Cliente;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+
+import br.com.jpa.algaworks.jpaalgaworks.domain.response.ClienteResponse;
+
+import br.com.jpa.algaworks.jpaalgaworks.mapper.ClienteMapper;
+
+import br.com.jpa.algaworks.jpaalgaworks.repository.ClienteRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;

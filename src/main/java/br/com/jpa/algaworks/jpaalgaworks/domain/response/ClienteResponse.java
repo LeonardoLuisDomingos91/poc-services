@@ -1,9 +1,7 @@
-package com.algaworks.domain.response;
+package br.com.jpa.algaworks.jpaalgaworks.domain.response;
 
-import com.algaworks.domain.entity.Pedido;
-
-import com.algaworks.domain.enumeration.Genero;
-
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.enumeration.Genero;
 import lombok.Getter;
 import lombok.Setter;
 

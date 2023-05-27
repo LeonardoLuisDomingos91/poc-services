@@ -1,15 +1,13 @@
-package com.algaworks.service;
+package br.com.jpa.algaworks.jpaalgaworks.service;
 
-import com.algaworks.domain.entity.ItemPedido;
-import com.algaworks.domain.entity.ItemPedidoId;
-import com.algaworks.domain.entity.Pedido;
-import com.algaworks.domain.entity.Produto;
-import com.algaworks.domain.response.ItemPedidoResponse;
-import com.algaworks.domain.response.PedidoDTO;
-import com.algaworks.domain.response.ProdutoDTO;
-import com.algaworks.repository.ItemPedidoRepository;
-import com.algaworks.repository.PedidoRepository;
-import com.algaworks.repository.ProdutoRepository;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.ItemPedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.ItemPedidoId;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Produto;
+import br.com.jpa.algaworks.jpaalgaworks.domain.response.ItemPedidoResponse;
+import br.com.jpa.algaworks.jpaalgaworks.domain.response.PedidoDTO;
+import br.com.jpa.algaworks.jpaalgaworks.domain.response.ProdutoDTO;
+import br.com.jpa.algaworks.jpaalgaworks.repository.ItemPedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

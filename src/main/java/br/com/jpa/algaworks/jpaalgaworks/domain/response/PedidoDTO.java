@@ -1,6 +1,4 @@
-package com.algaworks.domain.response;
-
-import com.algaworks.domain.entity.EnderecoEntregaPedido;
+package br.com.jpa.algaworks.jpaalgaworks.domain.response;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

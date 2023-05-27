@@ -1,7 +1,5 @@
-package com.algaworks.domain.entity;
+package br.com.jpa.algaworks.jpaalgaworks.domain.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
 import lombok.*;
 
 import java.io.Serializable;

@@ -1,7 +1,6 @@
-package com.algaworks.domain.entity;
+package br.com.jpa.algaworks.jpaalgaworks.domain.entity;
 
-import com.algaworks.domain.enumeration.Genero;
-
+import br.com.jpa.algaworks.jpaalgaworks.domain.enumeration.Genero;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.*;

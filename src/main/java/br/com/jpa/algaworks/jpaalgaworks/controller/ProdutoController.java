@@ -1,7 +1,7 @@
-package com.algaworks.controller;
+package br.com.jpa.algaworks.jpaalgaworks.controller;
 
-import com.algaworks.domain.entity.Produto;
-import com.algaworks.service.ProdutoService;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Produto;
+import br.com.jpa.algaworks.jpaalgaworks.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

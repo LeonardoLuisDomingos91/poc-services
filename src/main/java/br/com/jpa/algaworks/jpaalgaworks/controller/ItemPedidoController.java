@@ -1,11 +1,8 @@
-package com.algaworks.controller;
+package br.com.jpa.algaworks.jpaalgaworks.controller;
 
-import com.algaworks.domain.entity.ItemPedido;
-
-import com.algaworks.domain.response.ItemPedidoResponse;
-
-import com.algaworks.service.ItemPedidoService;
-
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.ItemPedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.response.ItemPedidoResponse;
+import br.com.jpa.algaworks.jpaalgaworks.service.ItemPedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.algaworks.domain.entity;
+package br.com.jpa.algaworks.jpaalgaworks.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;

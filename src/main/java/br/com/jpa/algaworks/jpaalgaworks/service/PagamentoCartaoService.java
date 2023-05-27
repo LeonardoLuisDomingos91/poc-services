@@ -1,10 +1,11 @@
-package com.algaworks.service;
+package br.com.jpa.algaworks.jpaalgaworks.service;
 
-import com.algaworks.domain.entity.PagamentoCartao;
-import com.algaworks.domain.entity.Pedido;
-import com.algaworks.domain.enumeration.StatusPagamento;
-import com.algaworks.repository.PagamentoCartaoRepository;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.PagamentoCartao;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.enumeration.StatusPagamento;
+import br.com.jpa.algaworks.jpaalgaworks.repository.PagamentoCartaoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

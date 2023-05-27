@@ -1,8 +1,8 @@
-package com.algaworks.mapper;
+package br.com.jpa.algaworks.jpaalgaworks.mapper;
 
-import com.algaworks.domain.entity.Cliente;
-import com.algaworks.domain.entity.Pedido;
-import com.algaworks.domain.response.ClienteResponse;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Cliente;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.response.ClienteResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

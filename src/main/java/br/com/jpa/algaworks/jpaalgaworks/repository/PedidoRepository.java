@@ -1,10 +1,10 @@
-package com.algaworks.repository;
+package br.com.jpa.algaworks.jpaalgaworks.repository;
 
-import com.algaworks.domain.entity.Pedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-import java.util.List;
+import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PedidoRepository extends JpaRepository<Pedido, Long> {

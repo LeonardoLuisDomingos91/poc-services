@@ -1,9 +1,10 @@
-package com.algaworks.controller;
+package br.com.jpa.algaworks.jpaalgaworks.controller;
 
-import com.algaworks.domain.entity.PagamentoCartao;
-import com.algaworks.service.PagamentoCartaoService;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.PagamentoCartao;
+import br.com.jpa.algaworks.jpaalgaworks.service.PagamentoCartaoService;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+
 import org.springframework.web.bind.annotation.*;
 
 @RestController

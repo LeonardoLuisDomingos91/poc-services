@@ -1,19 +1,11 @@
-package com.algaworks.controller;
+package br.com.jpa.algaworks.jpaalgaworks.controller;
 
-import com.algaworks.domain.entity.Pedido;
-import com.algaworks.domain.entity.Cliente;
-
-import com.algaworks.domain.response.ClienteResponse;
-import com.algaworks.repository.ClienteRepository;
-import com.algaworks.repository.PedidoRepository;
-
-import com.algaworks.service.ClienteService;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Cliente;
+import br.com.jpa.algaworks.jpaalgaworks.domain.response.ClienteResponse;
+import br.com.jpa.algaworks.jpaalgaworks.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/cliente")

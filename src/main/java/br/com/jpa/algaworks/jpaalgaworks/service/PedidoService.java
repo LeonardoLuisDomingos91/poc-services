@@ -1,10 +1,8 @@
-package com.algaworks.service;
+package br.com.jpa.algaworks.jpaalgaworks.service;
 
-import com.algaworks.domain.entity.EnderecoEntregaPedido;
-import com.algaworks.domain.entity.Pedido;
-
-import com.algaworks.repository.PedidoRepository;
-
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.EnderecoEntregaPedido;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Pedido;
+import br.com.jpa.algaworks.jpaalgaworks.repository.PedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package com.algaworks.repository;
+package br.com.jpa.algaworks.jpaalgaworks.repository;
 
-import com.algaworks.domain.entity.Produto;
+import br.com.jpa.algaworks.jpaalgaworks.domain.entity.Produto;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -2,7 +2,6 @@ package br.com.jpa.algaworks.jpaalgaworks.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
 import lombok.EqualsAndHashCode;
